@@ -1,0 +1,18 @@
+{
+  "name": "sqltools-formatter-esm",
+  "version": "1.0.0",
+  "description": "ESM version of @sqltools/formatter",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "yarn run build && node test/test.spec.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@sqltools/formatter": "^1.2.2",
+    "rollup": "^2.36.1"
+  }
+}
