@@ -1,4 +1,4 @@
-import resolve from '@rollup/plugin-node-resolve';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 
 export default {
@@ -8,7 +8,7 @@ export default {
       format: 'es',
     },
     plugins: [
-      resolve(),
+      nodeResolve(),
       commonjs({
         include: /node_modules/,
       }),
