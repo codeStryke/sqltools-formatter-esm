@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 export default {
     input: 'index.js',
     output: {
-      file: 'dist/sql-formatter.js',
+      file: 'dist/sql-formatter-esm.js',
       format: 'es',
     },
     plugins: [
