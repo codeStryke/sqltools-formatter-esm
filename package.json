@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rollup --config rollup.config.js",
     "test": "yarn run build && node test/test.spec.js"
   },
   "dependencies": {
