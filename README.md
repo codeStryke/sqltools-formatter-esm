@@ -9,7 +9,7 @@ yarn run build
 npm run build
 ```
 
-The ES version of `@sqltools/formatter` is generated as `/dist/sql-formatter.js`.
+The ES version of `@sqltools/formatter` is generated as `/dist/sql-formatter-esm.js`.
 
 ### Test
 ```
