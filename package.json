@@ -10,9 +10,9 @@
     "test": "yarn run build && node test/test.spec.js"
   },
   "dependencies": {
-    "@rollup/plugin-commonjs": "^17.0.0",
-    "@rollup/plugin-node-resolve": "^11.0.1",
-    "@sqltools/formatter": "^1.2.2",
-    "rollup": "^2.36.1"
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@sqltools/formatter": "^1.2.3",
+    "rollup": "^2.57.0"
   }
 }

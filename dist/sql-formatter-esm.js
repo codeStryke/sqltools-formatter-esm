@@ -2414,4 +2414,4 @@ exports["default"] = {
 
 var sqlFormatter$1 = /*@__PURE__*/getDefaultExportFromCjs(sqlFormatter);
 
-export default sqlFormatter$1;
+export { sqlFormatter$1 as default };
